@@ -30,7 +30,7 @@ a:hover {
 
 .img-circle {
 	border-radius: 50%;
-	box-shadow: 3px 3px 2px #7D2AE8;
+	box-shadow: 3px 3px 2px rgb(14,19,46);
 }
 
 
