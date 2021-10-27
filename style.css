@@ -72,6 +72,7 @@ a:hover {
 
 .btn-grey:hover{
 	background-color: #802CEB;
+	color: rgb(14,19,46);
 }
 
 .list-inline {
@@ -86,8 +87,8 @@ a:hover {
 	font-size: 60px;
 }
 
-.list-inline i hover{
-	background-color: #802CEB;
+.list-inline i:hover{
+	color: rgb(14,19,46);
 }
 
 #introduction p {
