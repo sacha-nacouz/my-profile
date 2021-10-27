@@ -1,0 +1,95 @@
+body {
+	background-color: rgb(223,202,252);
+	color: #0E1318;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	font-weight:lighter ;
+}
+
+h1 {   
+	color: #7D2AE8;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+h2, h3 {
+	color: #7D2AE8;
+   	font-family: 'Roboto Slab', serif;
+}
+
+a {
+	text-decoration: none;
+	color: #802CEB;
+	font-weight: bold
+}
+a:hover {
+	color: #54DBFD;
+}
+
+.img-circle {
+	border-radius: 50%;
+	box-shadow: 3px 3px 2px #7D2AE8;
+}
+
+
+.container {
+	width: 700px;
+	margin: auto;
+}
+@media (max-width : 760px) {
+
+
+.container {
+	width: 500px ;
+	}
+}
+@media (max-width : 300px) {
+
+
+.container {
+	width: 300px ;
+	}
+}
+
+
+.box-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 6px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.btn-grey {
+	background-color: #802CEB;
+	color: white;
+	padding: 10px 10px;
+	border-radius: 6px
+}
+
+.btn-grey:hover{
+	background-color: #802CEB;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 60px;
+}
+
+.list-inline i hover{
+	background-color: #802CEB;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
